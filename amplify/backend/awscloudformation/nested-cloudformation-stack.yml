@@ -71,10 +71,21 @@
 		"hostingS3AndCloudFront": {
 			"Type": "AWS::CloudFormation::Stack",
 			"Properties": {
-				"TemplateURL": "https://s3.amazonaws.com/amplify-authfirebasevue-dev-113618-deployment/amplify-cfn-templates/hosting/template.json",
+				"TemplateURL": "https://s3.amazonaws.com/amplify-authfirebasevue-vuedemo-173403-deployment/amplify-cfn-templates/hosting/template.json",
 				"Parameters": {
 					"bucketName": "authfirebasevue-20200909113726-hostingbucket",
-					"env": "dev"
+					"env": "vuedemo"
+				}
+			}
+		},
+		"hostingamplifyhosting": {
+			"Type": "AWS::CloudFormation::Stack",
+			"Properties": {
+				"TemplateURL": "https://s3.amazonaws.com/amplify-authfirebasevue-vuedemo-173403-deployment/amplify-cfn-templates/hosting/amplifyhosting-template.json",
+				"Parameters": {
+					"appId": "d22f9r8sfr7sb7",
+					"type": "manual",
+					"env": "vuedemo"
 				}
 			}
 		}

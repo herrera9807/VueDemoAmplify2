@@ -1,15 +1,15 @@
 {
   "providers": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-authfirebasevue-dev-113618-authRole",
-      "UnauthRoleArn": "arn:aws:iam::671810315381:role/amplify-authfirebasevue-dev-113618-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::671810315381:role/amplify-authfirebasevue-dev-113618-authRole",
+      "AuthRoleName": "amplify-authfirebasevue-vuedemo-173403-authRole",
+      "UnauthRoleArn": "arn:aws:iam::671810315381:role/amplify-authfirebasevue-vuedemo-173403-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::671810315381:role/amplify-authfirebasevue-vuedemo-173403-authRole",
       "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-authfirebasevue-dev-113618-deployment",
-      "UnauthRoleName": "amplify-authfirebasevue-dev-113618-unauthRole",
-      "StackName": "amplify-authfirebasevue-dev-113618",
-      "StackId": "arn:aws:cloudformation:us-east-1:671810315381:stack/amplify-authfirebasevue-dev-113618/98b1cf10-f2ba-11ea-8f03-0a60596032c9",
-      "AmplifyAppId": "d14u5b2buzvc0l"
+      "DeploymentBucketName": "amplify-authfirebasevue-vuedemo-173403-deployment",
+      "UnauthRoleName": "amplify-authfirebasevue-vuedemo-173403-unauthRole",
+      "StackName": "amplify-authfirebasevue-vuedemo-173403",
+      "StackId": "arn:aws:cloudformation:us-east-1:671810315381:stack/amplify-authfirebasevue-vuedemo-173403/b9f14160-fd23-11ea-b81d-0ee5b74c6229",
+      "AmplifyAppId": "d22f9r8sfr7sb7"
     }
   },
   "hosting": {
@@ -17,17 +17,29 @@
       "service": "S3AndCloudFront",
       "providerPlugin": "awscloudformation",
       "providerMetadata": {
-        "s3TemplateURL": "https://s3.amazonaws.com/amplify-authfirebasevue-dev-113618-deployment/amplify-cfn-templates/hosting/template.json",
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-authfirebasevue-vuedemo-173403-deployment/amplify-cfn-templates/hosting/template.json",
         "logicalId": "hostingS3AndCloudFront"
       },
-      "lastPushTimeStamp": "2020-09-09T17:43:53.880Z",
+      "lastPushTimeStamp": "2020-09-22T22:41:54.418Z",
       "output": {
-        "S3BucketSecureURL": "https://authfirebasevue-20200909113726-hostingbucket-dev.s3.amazonaws.com",
-        "WebsiteURL": "http://authfirebasevue-20200909113726-hostingbucket-dev.s3-website-us-east-1.amazonaws.com",
+        "S3BucketSecureURL": "https://authfirebasevue-20200909113726-hostingbucket-vuedemo.s3.amazonaws.com",
+        "WebsiteURL": "http://authfirebasevue-20200909113726-hostingbucket-vuedemo.s3-website-us-east-1.amazonaws.com",
         "Region": "us-east-1",
-        "HostingBucketName": "authfirebasevue-20200909113726-hostingbucket-dev"
+        "HostingBucketName": "authfirebasevue-20200909113726-hostingbucket-vuedemo"
       },
       "lastPushDirHash": "NmI6zfiCVy5E69q/AZ9pS1x6onY="
+    },
+    "amplifyhosting": {
+      "service": "amplifyhosting",
+      "providerPlugin": "awscloudformation",
+      "type": "manual",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-authfirebasevue-vuedemo-173403-deployment/amplify-cfn-templates/hosting/amplifyhosting-template.json",
+        "logicalId": "hostingamplifyhosting"
+      },
+      "lastPushTimeStamp": "2020-09-22T22:41:54.418Z",
+      "output": {},
+      "lastPushDirHash": "/+VZ33seFFqAr6wbtptwbINUfSA="
     }
   }
 }

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Acceso de Usuarios</h1>
+    <h1>Acceso de Usuarios editado</h1>
     <form @submit.prevent="ingresoUsuario({ email:$v.email.$model, password:$v.pass.$model })">
       <input
         type="email"
