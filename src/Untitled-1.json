@@ -1,0 +1,123 @@
+{
+    "informacionGeneral": {
+        "consecutivo": "2000000ES",
+        "idAsociado": "2000000ES",
+        "fechaRegistro": {
+            "year": 2020,
+            "month": 8,
+            "dayOfMonth": 11,
+            "hourOfDay": 8,
+            "minute": 19,
+            "second": 29
+        },
+        "tipoMovimiento": 0,
+        "detalleMovimiento": 2,
+        "tipoOperacion": 1,
+        "cveRecintoFiscalizado": "4710",
+        "_hashCodeCalc": false
+    },
+    "transporte": {
+        "numeroVueloBuqueViajeImo": "NH180",
+        "tipoTransporte": "A",
+        "fechaHoraDeArribo": {
+            "year": 2020,
+            "month": 8,
+            "dayOfMonth": 9,
+            "hourOfDay": 19,
+            "minute": 0,
+            "second": 0
+        },
+        "origenVueloBuque": "NRT",
+        "numeroManifiesto": "NH18020200910NRT",
+        "caat": "2ZFQ",
+        "piezas": 335.0,
+        "hashCodeCalc": false
+    },
+    "guiaMaster": {
+        "numeroGuiaBl": "205-46360716",
+        "caat": "2ZFQ",
+        "tipoOperacion": 1,
+        "peso": 262.0,
+        "ump": "K",
+        "volumen": 1.09,
+        "piezas": 24.0,
+        "idParcialidad": "T",
+        "secuencia": 1,
+        "mercancia": [{
+            "secuencia": 1,
+            "pais": "CAN",
+            "descripcion": "CONSOLIDATION SHPT",
+            "cantidad": 24.0,
+            "peso": 262.0,
+            "ump": "K",
+            "volumen": 1.09,
+            "imo": [{
+                "imo": "SPX",
+                "hashCodeCalc": false
+            }],
+            "hashCodeCalc": false
+        }],
+        "personas": [{
+            "tipoPersona": "TIN TIN",
+            "nombre": "SINOPORT GROUP LTD",
+            "calleDomicilio": "RM03A 39F PEARL RIVER",
+            "cp": "510030",
+            "municipio": "GUANGZHOU",
+            "entidadFederativa": "CHINA",
+            "pais": "CN",
+            "hashCodeCalc": false
+        }, {
+            "tipoPersona": "SH",
+            "nombre": "AIRMAR TRANSPORTES INTERNACIONALES",
+            "calleDomicilio": "NORTE 174 NO 549 COL PENSADOR",
+            "cp": "15510",
+            "municipio": "MEXICO",
+            "entidadFederativa": "MEXICO",
+            "pais": "MX",
+            "hashCodeCalc": false
+        }],
+        "guiaHouse": [{
+            "numeroGuiaBl": "CAN2009014A1",
+            "caat": "0253",
+            "tipoOperacion": 1,
+            "peso": 0.0,
+            "piezas": 24.0,
+            "secuencia": 1,
+            "mercancia": [{
+                "secuencia": 1,
+                "descripcion": "FINGERTIP ",
+                "cantidad": 24.0,
+                "peso": 262.0,
+                "ump": "K",
+                "hashCodeCalc": false
+            }],
+            "personas": [{
+                "tipoPersona": "TIN TIN",
+                "nombre": "HEAL FORCE INTERNATIOANL TRADING (S",
+                "calleDomicilio": "WEST ZHONGSHAN ROAD CHANGNING DISTR",
+                "municipio": "SHANGAHI",
+                "entidadFederativa": "China",
+                "pais": "CN",
+                "hashCodeCalc": false
+            }, {
+                "tipoPersona": "SH",
+                "nombre": "FABRICA DE INSTRUMENTOS Y EQUIPOS, ",
+                "calleDomicilio": "AV INDEPENDENCIA 6 int.  Col. La Co",
+                "municipio": "Tultitlán de Mariano Escobedo",
+                "entidadFederativa": "Mexico",
+                "pais": "MX",
+                "hashCodeCalc": false
+            }, {
+                "tipoPersona": "IF",
+                "nombre": "AIRMAR TRANSPORTES INTERNACIONALES ",
+                "calleDomicilio": "NORTE 174 549",
+                "municipio": "Ciudad de Mexico",
+                "pais": "MX",
+                "hashCodeCalc": false
+            }],
+            "hashCodeCalc": false
+        }],
+        "hashCodeCalc": false
+    },
+    "_hashCodeCalc": false
+}
